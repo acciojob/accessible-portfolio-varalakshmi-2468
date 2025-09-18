@@ -1,13 +1,54 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <html>
 
 <head>
+	<meta charset="UTF-8">
+    <title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	
+    <!-- Navigation -->
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Heading -->
+    <h1 role="heading">My Accessible Portfolio</h1>
+
+    <!-- Image -->
+    <img role="img" src="https://as2.ftcdn.net/jpg/01/29/16/45/1000_F_129164560_4hzn0bUJlN2i02ACl7HqtetCV9jPPqOK.jpg" alt="Portfolio banner image">
+
+    <!-- Description -->
+    <p id="about">
+        Welcome to my portfolio! I am a passionate software developer dedicated to building 
+        accessible and user-friendly applications. My goal is to leverage technology to create 
+        inclusive solutions for everyone.
+    </p>
+
+    <!-- Projects List -->
+    <section id="projects">
+        <h2>Key Skills</h2>
+        <ul role="list">
+            <li role="listitem">Web Development (HTML, CSS, JavaScript)</li>
+            <li role="listitem">Accessibility & Inclusive Design</li>
+            <li role="listitem">Problem Solving & Algorithms</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: example@email.com</p>
+    </section>
+
     <script type="text/javascript" src="./script.js">
 </script>
 
